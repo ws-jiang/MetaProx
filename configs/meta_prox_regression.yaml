@@ -6,5 +6,5 @@ test_every_valid: 2
 
 num_tasks:
   train: 40000
-  valid: 200
-  test: 400
+  valid: 600
+  test: 600
