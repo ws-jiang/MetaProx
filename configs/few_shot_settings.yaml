@@ -1,0 +1,53 @@
+############
+##   reg  ##
+############
+5shot:
+  n_support: 5
+  n_query: 15
+
+10shot:
+  n_support: 10
+  n_query: 9
+
+2shot:
+  n_support: 2
+  n_query: 8
+
+1shot:
+  n_support: 1
+  n_query: 5
+
+############
+##   cls  ##
+############
+
+# standard
+5way1shot:
+  way:
+    train: 5
+    test: 5
+    valid: 5
+  shot:
+    support:
+      train: 1
+      valid: 1
+      test: 1
+    query:
+      train: 15
+      valid: 15
+      test: 15
+
+5way5shot:
+  way:
+    train: 5
+    valid: 5
+    test: 5
+  shot:
+    support:
+      train: 5
+      valid: 5
+      test: 5
+    query:
+      train: 15
+      valid: 15
+      test: 15

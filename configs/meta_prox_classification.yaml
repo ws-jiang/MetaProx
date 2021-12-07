@@ -1,0 +1,14 @@
+num_task_steps:
+  train: 10
+  valid: 10
+  test: 10
+
+cvx_config:
+  train:
+    eps: 0.1  # 5way1shot, 0.001
+  valid:
+    max_iters: 50
+    eps: 0.001
+  test:
+    max_iters: 50
+    eps: 0.001

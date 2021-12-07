@@ -1,0 +1,10 @@
+## inner step
+inner_step:
+  train: 1
+  valid: 5
+  test: 5
+
+## lr
+default_lr:
+  base_lr: 0.01
+  meta_lr: 0.001

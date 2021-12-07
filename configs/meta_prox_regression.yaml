@@ -1,0 +1,10 @@
+
+lr: 0.001
+
+batch_task_num: 16
+test_every_valid: 2
+
+num_tasks:
+  train: 40000
+  valid: 200
+  test: 400

@@ -1,0 +1,13 @@
+sine_ds:
+  min_amp: 0.1
+  max_amp: 5
+  min_phase: 0
+  max_phase: 3.14
+  min_x: -5.0
+  max_x: 5.0
+
+SINE:
+  input_dim: 1
+
+SALE:
+  input_dim: 5

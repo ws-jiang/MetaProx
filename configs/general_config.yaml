@@ -1,0 +1,20 @@
+
+# evaluate on validation set per xxx epoch, to avoid overfitting.
+# stop when no improvement for max_not_impr_cnt evaluation
+valid_every_epoch: 1
+max_not_impr_cnt: 10
+
+valid_every_iteration: 1000
+info_log_every_iteration: 100
+report_train_every_iteration: 1000
+
+# log freq in an epoch
+log_freq: 10
+
+# num_workers for load dataset
+num_workers: 16
+
+num_iteration:
+  train: 100000
+  valid: 600
+  test: 600
