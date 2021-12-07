@@ -16,8 +16,8 @@ echo "==MetaProx MAIN=="
 ##########
 #nohup python MetaProxMain.py --gpu_id 0 --cls_or_reg reg --expt 2shot --ds SINE --backbone MLP2 --noise_sigma 0 &
 #nohup python MetaProxMain.py --gpu_id 0 --cls_or_reg reg --expt 2shot --ds SINE --backbone MLP2 --noise_sigma 1 &
-nohup python MetaProxMain.py --gpu_id 7 --cls_or_reg reg --expt 5shot --ds SINE --backbone MLP2 --noise_sigma 0 &
-nohup python MetaProxMain.py --gpu_id 7 --cls_or_reg reg --expt 5shot --ds SINE --backbone MLP2 --noise_sigma 1 &
+nohup python MetaProxMain.py --gpu_id 0 --cls_or_reg reg --expt 5shot --ds SINE --backbone MLP2 --noise_sigma 0 &
+nohup python MetaProxMain.py --gpu_id 0 --cls_or_reg reg --expt 5shot --ds SINE --backbone MLP2 --noise_sigma 1 &
 
 ##########
 # Sale
